@@ -4,8 +4,53 @@
 
 @layer base {
   :root {
-    --color-azul: 7, 7, 32; /* RGB values of #070720 */
-    --color-azul-claro: 26, 26, 74;
-    --color-secundario: 230, 57, 70;
+    /* Colores base en formato RGB para usar con opacity */
+    --color-azul: 7, 7, 32; /* #070720 */
+    --color-azul-claro: 26, 26, 74; /* #1a1a4a */
+    --color-secundario: 230, 57, 70; /* #e63946 */
+    
+    /* Colores adicionales */
+    --color-acento: 230, 57, 70; /* #e63946 */
+    --color-acento-light: 244, 140, 149; /* #f48c95 */
+    --color-acento-dark: 200, 29, 42; /* #c81d2a */
+    
+    --color-fondo: 7, 7, 32; /* #070720 */
+    --color-fondo-claro: 26, 26, 74; /* #1a1a4a */
+    --color-fondo-oscuro: 5, 5, 21; /* #050515 */
+    
+    --color-texto: 255, 255, 255; /* #ffffff */
+    --color-texto-secundario: 160, 160, 176; /* #a0a0b0 */
+    --color-texto-oscuro: 51, 51, 51; /* #333333 */
+  }
+}
+
+/* Clases de utilidad personalizadas */
+@layer components {
+  .container-app {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-acento text-white hover:bg-acento-dark;
+  }
+  
+  .btn-secondary {
+    @apply bg-azul-claro text-white hover:bg-azul;
+  }
+  
+  .card {
+    @apply bg-fondo-claro rounded-lg p-6 shadow-lg;
+  }
+  
+  .title-main {
+    @apply text-3xl md:text-4xl lg:text-5xl font-titulo font-bold text-texto;
+  }
+  
+  .title-section {
+    @apply text-2xl md:text-3xl font-titulo font-semibold text-texto;
   }
 }
