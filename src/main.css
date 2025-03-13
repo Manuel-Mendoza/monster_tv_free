@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-azul: 7, 7, 32; /* RGB values of #070720 */
+    --color-azul-claro: 26, 26, 74;
+    --color-secundario: 230, 57, 70;
+  }
+}
