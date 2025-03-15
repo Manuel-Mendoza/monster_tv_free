@@ -10,3 +10,7 @@
 
   --p-96: 0px 24rem;
 }
+
+html{
+  user-select: none;
+}
