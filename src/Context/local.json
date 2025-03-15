@@ -1,0 +1,20 @@
+[
+  {
+    "id": "slide1",
+    "img": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2025/02/best-anime-of-all-time-with-naruto-shippuden-dragon-ball-z-vegeta-and-sailor-moon.jpg",
+    "href_left": "#slide3",
+    "href_right": "#slide2"
+  },
+  {
+    "id": "slide2",
+    "img": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/09/Best-Anime-Feature-1.jpg",
+    "href_left": "#slide1",
+    "href_right": "#slide3"
+  },
+  {
+    "id": "slide3",
+    "img": "https://assets-prd.ignimgs.com/2022/08/17/top25animecharacters-blogroll-1660777571580.jpg",
+    "href_left": "#slide2",
+    "href_right": "#slide1"
+  }
+]

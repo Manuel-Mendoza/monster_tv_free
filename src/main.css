@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --color-dark: #0B0C2A;
-  --color-azul: #0B0C2A;
-  --color-red: #E64437;
+:root {
+  --color-dark: #0b0c2a;
+  --color-azul: #0b0c2a;
+  --color-red: #e64437;
   --color-gris: #242340;
+
+  --p-96: 0px 24rem;
 }

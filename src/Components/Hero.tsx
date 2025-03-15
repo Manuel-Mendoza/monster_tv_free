@@ -1,10 +1,22 @@
+import local from '../Context/local.json';
 
 export default function Hero() {
   return (
-    <section className="hero">
-      <div className="hero__container">
-        <h1 className="hero__title">Hero</h1>
+    <div className="p-base">
+      <div className="carousel w-full">
+        {local.map(data => (
+          <div id={data.id} className="carousel-item relative w-full">
+            <img
+              src={data.img}
+              className="w-full" />
+            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href={data.href_left} className="btn btn-circle">❮</a>
+              <a href={data.href_right} className="btn btn-circle">❯</a>
+            </div>
+          </div>
+        ))}
       </div>
-    </section>
+    </div>
+
   );
 }

@@ -14,7 +14,11 @@ export default {
         'red': 'var(--color-red)',
         'gris': 'var(--color-gris)',
       },
+      padding:{
+        'base': 'var(--p-96)',
+      }
     },
+
   },
   plugins: [daisyui],
   daisyui: {
