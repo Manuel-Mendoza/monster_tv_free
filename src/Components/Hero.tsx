@@ -2,7 +2,7 @@ import local from '../Context/local.json';
 
 export default function Hero() {
   return (
-    <div className="p-base py-6">
+    <div className="sm:p-base p-2 py-6">
       <div className="carousel w-full  rounded-3xl">
         {local.map(data => (
           <div id={data.id} className="carousel-item relative w-full">

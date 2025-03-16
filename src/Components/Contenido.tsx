@@ -51,7 +51,7 @@ export default function Contenido() {
   }, [fetchNoticias]);
 
   return (
-    <div className='p-base'>
+    <div className='sm:p-base p-2'>
       <h1 className="text-2xl font-bold mb-6">Noticias de Anime</h1>
 
       {loading && <p className="text-center">Cargando noticias...</p>}

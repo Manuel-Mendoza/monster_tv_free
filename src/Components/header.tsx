@@ -2,7 +2,7 @@ import { FaSearch } from 'react-icons/fa';
 
 export default function Header() {
   return (
-    <div className="navbar bg-dark shadow-sm p-base">
+    <div className="navbar bg-dark shadow-sm sm:p-base">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -40,7 +40,6 @@ export default function Header() {
         </ul>
       </div>
       <div className='navbar-center rounded p-2 cursor-pointer hover:bg-neutral'>
-
         <FaSearch />
       </div>
       <div className='navbar-end'>
